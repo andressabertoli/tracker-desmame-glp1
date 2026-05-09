@@ -138,6 +138,64 @@ canvas{max-height:220px}
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);background:var(--dark);color:var(--white);padding:12px 28px;border-radius:50px;font-size:.82rem;font-weight:500;z-index:999;transition:transform .3s;pointer-events:none}
 .toast.show{transform:translateX(-50%) translateY(0)}
 
+/* ── GUIAS ── */
+.guia-hero{background:var(--taupe);border-radius:16px;padding:24px 28px;margin-bottom:24px;color:var(--white)}
+.guia-hero h2{font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:300;margin-bottom:6px}
+.guia-hero p{font-size:.85rem;color:rgba(255,255,255,.75);line-height:1.6}
+.aviso{background:#fff8e1;border-left:3px solid #c9a227;border-radius:0 10px 10px 0;padding:14px 18px;margin-bottom:20px;font-size:.82rem;color:#5a4800;line-height:1.6}
+.aviso strong{display:block;margin-bottom:4px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+
+.cha-card{background:var(--white);border:1px solid var(--light);border-radius:16px;padding:22px;margin-bottom:16px;border-left:4px solid var(--sand)}
+.cha-card h3{font-size:1.05rem;font-weight:700;color:var(--dark);margin-bottom:4px}
+.cha-card .cha-sub{font-size:.72rem;color:#9a8570;margin-bottom:12px}
+.cha-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.cha-tag{background:var(--light);color:var(--taupe);font-size:.68rem;font-weight:600;padding:3px 10px;border-radius:50px;letter-spacing:.04em}
+.cha-row{display:grid;grid-template-columns:100px 1fr;gap:8px;padding:7px 0;border-bottom:1px solid var(--light);font-size:.83rem}
+.cha-row:last-child{border-bottom:none}
+.cha-row .lbl{font-weight:600;color:var(--accent);font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
+.cha-row .val{color:var(--dark);line-height:1.55}
+.cha-row .val.red{color:#B05555}
+
+.espec-card{background:var(--cream);border:1px solid var(--light);border-radius:14px;padding:20px;margin-bottom:14px}
+.espec-card h3{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:4px}
+.espec-row{display:grid;grid-template-columns:90px 1fr;gap:8px;padding:6px 0;border-bottom:1px solid var(--light);font-size:.82rem}
+.espec-row:last-child{border-bottom:none}
+.espec-row .lbl{font-weight:600;color:var(--accent);font-size:.7rem;text-transform:uppercase;letter-spacing:.05em}
+
+.rotina-table{width:100%;border-collapse:collapse;font-size:.82rem;margin-top:8px}
+.rotina-table th{background:var(--taupe);color:var(--white);padding:9px 12px;text-align:left;font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.rotina-table td{padding:9px 12px;border-bottom:1px solid var(--light);vertical-align:top}
+.rotina-table tr:nth-child(even) td{background:rgba(232,221,208,.2)}
+.rotina-table .hora{font-weight:600;color:var(--taupe);white-space:nowrap}
+
+.fase-title{font-size:.72rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--white);background:var(--taupe);padding:6px 16px;border-radius:50px;display:inline-block;margin:20px 0 14px}
+.supl-card{background:var(--white);border:1px solid var(--light);border-radius:14px;padding:20px;margin-bottom:14px;display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start}
+.supl-badge{background:var(--taupe);color:var(--white);font-size:.6rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:4px 10px;border-radius:50px;white-space:nowrap;margin-top:2px}
+.supl-badge.media{background:var(--sand);color:var(--dark)}
+.supl-card h3{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:10px}
+.supl-row{display:grid;grid-template-columns:90px 1fr;gap:6px;padding:5px 0;border-bottom:1px solid var(--light);font-size:.82rem}
+.supl-row:last-child{border-bottom:none}
+.supl-row .lbl{font-weight:600;color:var(--accent);font-size:.7rem;text-transform:uppercase;letter-spacing:.05em}
+.supl-row .warn{color:#B05555}
+
+.resumo-table{width:100%;border-collapse:collapse;font-size:.8rem}
+.resumo-table th{background:var(--dark);color:var(--white);padding:9px 12px;text-align:left;font-size:.7rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.resumo-table td{padding:9px 12px;border-bottom:1px solid var(--light)}
+.resumo-table tr:nth-child(even) td{background:rgba(232,221,208,.2)}
+.prioridade-alta{color:var(--taupe);font-weight:700}
+.prioridade-media{color:var(--accent)}
+
+.rec-card{background:var(--white);border:1px solid var(--light);border-radius:16px;padding:22px;margin-bottom:16px;border-left:4px solid var(--taupe)}
+.rec-card h3{font-size:1.05rem;font-weight:700;color:var(--dark);margin-bottom:4px}
+.rec-card .rec-sub{font-size:.72rem;color:var(--accent);margin-bottom:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase}
+.rec-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.rec-tag{background:var(--light);color:var(--taupe);font-size:.68rem;font-weight:600;padding:3px 10px;border-radius:50px}
+.rec-section{font-size:.72rem;font-weight:700;color:var(--taupe);text-transform:uppercase;letter-spacing:.1em;margin:12px 0 6px;display:block}
+.rec-card ul,.rec-card ol{padding-left:18px;font-size:.85rem;color:var(--dark);line-height:1.7}
+.rec-card p{font-size:.85rem;color:#6b5c4a;line-height:1.65;margin-bottom:8px}
+.rec-macros{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px solid var(--light)}
+.rec-macro{background:var(--cream);border-radius:8px;padding:6px 12px;font-size:.72rem;color:var(--taupe);font-weight:600}
+
 /* ── RESPONSIVE ── */
 @media(max-width:640px){
   .form-grid{grid-template-columns:1fr}
@@ -164,6 +222,9 @@ canvas{max-height:220px}
   <button class="tab" onclick="showTab('dashboard')">📊 Dashboard</button>
   <button class="tab" onclick="showTab('recordatorio')">📖 Recordatório</button>
   <button class="tab" onclick="showTab('emocoes')">💭 Emoções</button>
+  <button class="tab" onclick="showTab('chas')">🍵 Chás</button>
+  <button class="tab" onclick="showTab('suplementos')">💊 Suplementos</button>
+  <button class="tab" onclick="showTab('receitas')">🍽️ Receitas</button>
 </nav>
 
 <!-- ══════════════════════════════════════════════
@@ -431,6 +492,459 @@ canvas{max-height:220px}
   <div class="card" id="emo-history">
     <div class="card-title">📜 Histórico Recente</div>
     <div id="emo-history-list"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     🍵 CHÁS & ESPECIARIAS
+══════════════════════════════════════════════ -->
+<section id="sec-chas" class="section">
+  <div class="guia-hero">
+    <h2>🍵 Guia de Chás e Especiarias</h2>
+    <p>Fitoterapia sofisticada para o desmame · Evidência científica específica para lipedema, fibrose, metabolismo hormonal e saciedade.</p>
+  </div>
+
+  <div class="aviso"><strong>⚠️ Atenção antes de iniciar</strong>Plantas medicinais têm ação farmacológica real. Informe seu médico especialmente se fizer uso de anticoagulantes, anti-hipertensivos, antidepressivos ou imunossupressores. Gestantes e lactantes devem consultar antes de qualquer uso.</div>
+
+  <div class="card"><div class="card-title">🌿 Chás Funcionais</div>
+
+    <div class="cha-card">
+      <h3>Chá de Cúrcuma Raiz Fresca</h3>
+      <div class="cha-sub">Anti-fibrótico potente · Anti-inflamatório sistêmico</div>
+      <div class="cha-tags"><span class="cha-tag">Anti-fibrótico</span><span class="cha-tag">Anti-inflamatório</span><span class="cha-tag">Lipedema</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">Rale 2–3cm de cúrcuma fresca + pitada generosa de pimenta-do-reino + 1 col chá de azeite em 250ml de água quente. Deixar 10 min. Coar.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">Inibe TGF-beta (fibrose do lipedema), reduz NF-kB, IL-6, TNF-alfa. A raiz fresca tem 5x mais curcumina ativa. A piperina aumenta absorção em 2.000%.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">1–2x ao dia. Ideal ao acordar e após o jantar.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Cálculos biliares ativos. Anticoagulantes (varfarina, heparina). Hipoglicemia.</span></div>
+    </div>
+
+    <div class="cha-card">
+      <h3>Chá de Dente de Leão (Taraxacum)</h3>
+      <div class="cha-sub">Detox hepático · Diurético linfático · Metabolismo do estrogênio</div>
+      <div class="cha-tags"><span class="cha-tag">Detox</span><span class="cha-tag">Hepático</span><span class="cha-tag">Diurético</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">1 col sopa de raiz seca em 250ml de água fervente. Deixar 15 min tampado. Coar e beber quente ou morno.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">Ativa enzimas hepáticas de detoxificação que eliminam estrogênios. Efeito diurético suave. Contém inulina — prebiótico anti-inflamatório.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">1x ao dia pela manhã, em jejum.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Alergia a Asteraceae. Obstrução biliar. Uso de diuréticos prescritos.</span></div>
+    </div>
+
+    <div class="cha-card">
+      <h3>Chá de Centella Asiática (Gotu Kola)</h3>
+      <div class="cha-sub">Reparação do tecido conjuntivo · Anti-fibrótico · Suporte linfático</div>
+      <div class="cha-tags"><span class="cha-tag">Anti-fibrótico</span><span class="cha-tag">Linfático</span><span class="cha-tag">Colágeno</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">1 col chá de folhas secas em 200ml de água a 70°C. Deixar 8 min. Não ferver — perde os triterpenos.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">Estimula síntese de colágeno tipo I e III. Inibe fibrose. Melhora microcirculação e integridade capilar. Estudada em insuficiência venosa e linfática.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">1–2x ao dia por 8–12 semanas. Fazer pausas de 4 sem a cada 8.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Gestantes. Epilepsia. Pausas obrigatórias (hepatotoxicidade rara).</span></div>
+    </div>
+
+    <div class="cha-card">
+      <h3>Chá de Salsaparrilha (Smilax)</h3>
+      <div class="cha-sub">Suporte linfático específico · Anti-inflamatório · Depurativo</div>
+      <div class="cha-tags"><span class="cha-tag">Sistema Linfático</span><span class="cha-tag">Anti-inflamatório</span><span class="cha-tag">Depurativo</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">1 col sopa de raiz em 300ml de água fervente. Cozinhar em fogo baixo por 15 min (decocção). Coar. Pode adoçar com stevia.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">Uma das plantas com maior especificidade para o sistema linfático. Saponinas se ligam a endotoxinas, facilitando sua eliminação. Histórico em condições inflamatórias do tecido subcutâneo.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">1x ao dia, preferencialmente à tarde.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Litíase renal com oxalato. Diuréticos prescritos. Hipertensão não controlada.</span></div>
+    </div>
+
+    <div class="cha-card">
+      <h3>Chá de Erva-Mate Verde (não torrada)</h3>
+      <div class="cha-sub">Termogênico · Saciedade · Metabolismo da gordura · GLP-1 like</div>
+      <div class="cha-tags"><span class="cha-tag">Termogênico</span><span class="cha-tag">Saciedade</span><span class="cha-tag">GLP-1 like</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">1 col sopa em água a 75°C (não fervente). Chimarrão ou coado. Não adoçar.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">EGCG + teobromina + ácido clorogênico: inibe lipase pancreática, aumenta termogênese e prolonga saciedade via GLP-1. Mateína mais suave que o café.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">Manhã e início da tarde. NUNCA após as 15h.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Gastrite, úlcera. Ansiedade severa. Hipertensão não controlada. Gravidez.</span></div>
+    </div>
+
+    <div class="cha-card">
+      <h3>Chá de Hibisco com Cavalinha</h3>
+      <div class="cha-sub">Drenagem linfática · Anti-retenção · Antioxidante</div>
+      <div class="cha-tags"><span class="cha-tag">Drenagem</span><span class="cha-tag">Anti-edema</span><span class="cha-tag">Linfático</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">1 col sopa de hibisco + 1 col chá de cavalinha em 300ml de água quente. Deixar 8 min. Ótimo gelado com hortelã.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">Hibisco inibe enzima conversora de angiotensina (reduz retenção). Cavalinha (sílica) é diurético suave que fortalece o tecido conjuntivo. Combinação potente anti-edema.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">1–2x ao dia. Manhã ou início da tarde.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Hipotensão. Diuréticos prescritos. Cavalinha: máx 4 semanas seguidas. Gestantes.</span></div>
+    </div>
+
+    <div class="cha-card">
+      <h3>Chá de Ashwagandha</h3>
+      <div class="cha-sub">Cortisol · Resistência ao estresse · Controle do apetite emocional</div>
+      <div class="cha-tags"><span class="cha-tag">Cortisol</span><span class="cha-tag">Sono</span><span class="cha-tag">Anti-estresse</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">1 col chá de pó em 200ml de leite vegetal morno (não ferver). Adicionar canela e pitada de pimenta. Pode adicionar mel mínimo.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">Reduz cortisol sérico em 27–30% após 60 dias. Cortisol elevado é o principal hormônio que estimula apetite no desmame. Melhora sono e reduz ansiedade.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">À noite, 30–60 min antes de dormir. Use por mínimo 4 semanas.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Doenças autoimunes. Tireoide não controlada. Sedativos/antidepressivos. Gestantes.</span></div>
+    </div>
+
+    <div class="cha-card">
+      <h3>Chá de Menta com Gymnema</h3>
+      <div class="cha-sub">Anti-doce · Reeducação do paladar · Controle de compulsão</div>
+      <div class="cha-tags"><span class="cha-tag">Anti-doce</span><span class="cha-tag">Paladar</span><span class="cha-tag">Compulsão</span></div>
+      <div class="cha-row"><span class="lbl">Preparo</span><span class="val">4 folhas de menta fresca + 1 cápsula de Gymnema aberta (400mg) em 200ml de água morna. 3 min. Beber devagar, deixando tocar a língua.</span></div>
+      <div class="cha-row"><span class="lbl">Benefícios</span><span class="val">Menta ativa receptores TRPM8 (frescor), reduzindo vontade de doce. Gymnema bloqueia receptores de sabor doce por 1–2h. Reset sensorial poderoso.</span></div>
+      <div class="cha-row"><span class="lbl">Quando tomar</span><span class="val">Sempre que bater vontade de doce. Antes de eventos sociais com comida.</span></div>
+      <div class="cha-row"><span class="lbl">⚠️ Não usar</span><span class="val red">Hipoglicemia. Medicamentos para diabetes. SII severa.</span></div>
+    </div>
+  </div>
+
+  <div class="card"><div class="card-title">🧂 Especiarias Funcionais — use todos os dias</div>
+    <p style="font-size:.83rem;color:#9a8570;margin-bottom:18px">Usadas diariamente e generosamente, exercem efeitos anti-inflamatórios, anti-fibróticos e metabólicos equivalentes a doses suplementares. A chave é consistência.</p>
+
+    <div class="espec-card"><h3>🟡 Cúrcuma em Pó</h3>
+      <div class="espec-row"><span class="lbl">Função</span><span>Anti-fibrótico, anti-inflamatório sistêmico, detox estrogênio, metabolismo hepático.</span></div>
+      <div class="espec-row"><span class="lbl">Como usar</span><span>1 col chá/dia em ovos, sopas, smoothies, arroz. SEMPRE com pimenta-do-reino e azeite (aumenta 20x a absorção).</span></div>
+      <div class="espec-row"><span class="lbl">⚠️ Atenção</span><span style="color:#B05555">Cálculos biliares ativos. Anticoagulantes. Excesso pode irritar estômago.</span></div>
+    </div>
+
+    <div class="espec-card"><h3>⚫ Pimenta-do-Reino</h3>
+      <div class="espec-row"><span class="lbl">Função</span><span>Aumenta absorção da curcumina em 2.000%. Termogênica. Anti-inflamatória leve.</span></div>
+      <div class="espec-row"><span class="lbl">Como usar</span><span>Moída na hora sobre todos os pratos. Sempre com cúrcuma. Pitada generosa.</span></div>
+      <div class="espec-row"><span class="lbl">⚠️ Atenção</span><span style="color:#B05555">Gastrite erosiva. Úlcera péptica ativa.</span></div>
+    </div>
+
+    <div class="espec-card"><h3>🟤 Canela do Ceilão (C. verum)</h3>
+      <div class="espec-row"><span class="lbl">Função</span><span>Regula glicemia pós-prandial, reduz vontade de doce, melhora sensibilidade à insulina.</span></div>
+      <div class="espec-row"><span class="lbl">Como usar</span><span>1 col chá/dia no iogurte, café, frutas, aveia. IMPORTANTE: use Ceilão — a Cássia tem cumarina hepatotóxica.</span></div>
+      <div class="espec-row"><span class="lbl">⚠️ Atenção</span><span style="color:#B05555">Doenças hepáticas. Anticoagulantes. Hipoglicemia.</span></div>
+    </div>
+
+    <div class="espec-card"><h3>🧄 Alho Cru</h3>
+      <div class="espec-row"><span class="lbl">Função</span><span>Anti-fibrótico potente (inibe TGF-beta). Antimicrobiano. Apoia drenagem linfática.</span></div>
+      <div class="espec-row"><span class="lbl">Como usar</span><span>1–2 dentes crus/dia: amassar e aguardar 10 min antes de usar. Em molhos, saladas, azeite.</span></div>
+      <div class="espec-row"><span class="lbl">⚠️ Atenção</span><span style="color:#B05555">Anticoagulantes. Parar 2 sem antes de cirurgia. SII severa.</span></div>
+    </div>
+
+    <div class="espec-card"><h3>🫚 Gengibre Fresco</h3>
+      <div class="espec-row"><span class="lbl">Função</span><span>Inibe COX-2 (anti-inflamatório). Termogênico. Saciante. Reduz náusea. Apoia motilidade intestinal.</span></div>
+      <div class="espec-row"><span class="lbl">Como usar</span><span>2–4cm de raiz fresca/dia: ralado em chás, refogados, sopas, sucos.</span></div>
+      <div class="espec-row"><span class="lbl">⚠️ Atenção</span><span style="color:#B05555">Cálculos biliares. Anticoagulantes. Hipoglicemia.</span></div>
+    </div>
+
+    <div class="espec-card"><h3>💚 Cardamomo</h3>
+      <div class="espec-row"><span class="lbl">Função</span><span>Digestivo, reduz gases e distensão. Reduz compulsão por doce. Anti-inflamatório leve.</span></div>
+      <div class="espec-row"><span class="lbl">Como usar</span><span>Em sementes ou pó: café (chai latte!), sobremesas funcionais, iogurte, chás, smoothies.</span></div>
+      <div class="espec-row"><span class="lbl">⚠️ Atenção</span><span style="color:#B05555">Geralmente bem tolerado. Cálculos biliares: pode estimular contração da vesícula.</span></div>
+    </div>
+  </div>
+
+  <div class="card"><div class="card-title">📅 Rotina Diária de Chás — Sugestão</div>
+    <div style="overflow-x:auto">
+    <table class="rotina-table">
+      <thead><tr><th>Horário</th><th>Chá / Planta</th><th>Objetivo Principal</th></tr></thead>
+      <tbody>
+        <tr><td class="hora">Ao acordar (jejum)</td><td>Cúrcuma raiz fresca</td><td>Anti-fibrótico + ativa fígado</td></tr>
+        <tr><td class="hora">Pós café da manhã</td><td>Dente de leão ou erva-mate verde</td><td>Detox hepático + termogênico</td></tr>
+        <tr><td class="hora">Entre refeições</td><td>Menta com Gymnema (se bater vontade de doce)</td><td>Reset do paladar + anti-compulsão</td></tr>
+        <tr><td class="hora">Pós almoço</td><td>Centella asiática</td><td>Suporte linfático + colágeno</td></tr>
+        <tr><td class="hora">Lanche da tarde</td><td>Salsaparrilha ou Hibisco com Cavalinha</td><td>Drenagem + anti-retenção</td></tr>
+        <tr><td class="hora">Antes do jantar</td><td>Gengibre (se houver fome antecipada)</td><td>Saciedade + termogênico</td></tr>
+        <tr><td class="hora">Antes de dormir</td><td>Ashwagandha com leite vegetal + canela</td><td>Cortisol + sono + paladar</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     💊 SUPLEMENTOS
+══════════════════════════════════════════════ -->
+<section id="sec-suplementos" class="section">
+  <div class="guia-hero">
+    <h2>💊 Guia de Suplementos</h2>
+    <p>Protocolo funcional para o desmame do GLP-1 · Com ação complementar ao tirzepatida — alguns com efeito GLP-1 like.</p>
+  </div>
+  <div class="aviso"><strong>⚠️ Aviso Importante</strong>Este protocolo é educativo. A suplementação deve ser individualizada e orientada por profissional habilitado. Doses, marcas e combinações variam conforme cada paciente.</div>
+
+  <div class="card">
+    <span class="fase-title">FASE 1 — Essenciais (do 1º ao último dia)</span>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Ômega-3 (EPA+DHA)</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>2–4g/dia de EPA+DHA</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Com a maior refeição do dia (aumenta absorção em 50%)</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Anti-inflamatório potente: reduz IL-6, TNF-alfa e dor do lipedema. Apoia sistema linfático e sensibilidade à insulina.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Prefira forma TG (triglicerídeo). Guarde na geladeira após aberto.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Magnésio Bisglicinato</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>400–600mg/dia de magnésio elementar</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>À noite, 30–60 min antes de dormir</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Reduz cortisol (que aumenta o apetite), melhora qualidade do sono e alivia dores musculares do lipedema.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Evite óxido de magnésio — absorção muito baixa. Bisglicinato ou treonato são ideais.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Vitamina D3 + K2</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>2.000–5.000 UI de D3 + 100–200mcg K2 MK-7</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Com café da manhã ou almoço (refeição com gordura)</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Deficiência de D3 associada à piora do lipedema e maior inflamação. K2 direciona cálcio para os ossos.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Idealmente dosar antes de suplementar — deficiência severa é comum no lipedema.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Vitamina C</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>1.000–2.000mg/dia (divida em 2x)</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Com as refeições (reduz desconforto gástrico)</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Essencial para síntese de colágeno e saúde do tecido conjuntivo linfático. Antioxidante contra estresse oxidativo do lipedema.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Prefira forma tamponada (ascorbato de cálcio) se tiver sensibilidade gástrica.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="fase-title">FASE 2 — Controle de Apetite e Saciedade (ação GLP-1 like)</span>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Glucomanana (Konjac)</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>3–4g/dia, dividido antes das 3 refeições</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>30 min antes das refeições — dissolva em 300ml de água</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Fibra viscosa de maior eficácia para saciedade. Retarda esvaziamento gástrico (similar ao GLP-1), reduz glicose pós-prandial.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">BEBA MUITO LÍQUIDO — risco de engasgamento. Inicie com dose menor.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Gymnema Sylvestre</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>400–800mg/dia (extrato 25% ácido gimnêmico)</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>30 min antes das refeições, especialmente antes de doces</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Bloqueia receptores de doce na língua por 1–2h. Reduz absorção de glicose. Essencial para compulsão por doce no desmame.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Evite em hipoglicemia. Não usar com medicamentos para diabetes.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Berberina</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>500mg 2–3x/dia com as refeições</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>No início das refeições principais</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Ativa a AMPK (similar à metformina), melhora sensibilidade à insulina, reduz glicose pós-prandial. Estudada para controle de peso pós-GLP-1.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Inicie com 500mg 1x/dia e aumente gradualmente. Pode interagir com medicamentos.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Psyllium (Plantago ovata)</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>10–15g/dia</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>15–20 min antes das refeições (em 300ml de água)</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Forma gel no estômago aumentando saciedade. Regula intestino (comum ficar lento no desmame) e alimenta a microbiota.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Inicie com 5g e aumente progressivamente.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge media">Média</div></div>
+      <div><h3>Zinco Bisglicinato</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>15–30mg/dia de zinco elementar</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Com refeição (evita náusea em jejum)</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Regula apetite via leptina, apoia sistema imunológico linfático e tem ação anti-inflamatória.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Não exceder 40mg/dia por longos períodos.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge media">Média</div></div>
+      <div><h3>Cromo Picolinato</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>200–400mcg/dia</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Com o café da manhã</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Melhora sensibilidade à insulina e reduz compulsão por doces e carboidratos — muito comum no desmame.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Efeito gradual (4–6 semanas). Não é bloqueador de fome imediato.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <span class="fase-title">FASE 3 — Suporte Específico ao Lipedema</span>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Rutina (Vitamina P)</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>500–1.000mg/dia</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Dividido em 2 doses — manhã e tarde</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Flavonoide que fortalece capilares, reduz permeabilidade vascular e melhora edema linfático. Complementa a compressão terapêutica.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge">Alta</div></div>
+      <div><h3>Diosmina + Hesperidina</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>1.000mg/dia (500mg 2x)</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Com as refeições</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Forte ação venotônica e linfotônica. Reduzem permeabilidade capilar e edema nos membros inferiores — especialmente eficazes no lipedema.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Vendido como Daflon® ou genérico. Efeito máximo em 4–6 semanas.</span></div>
+      </div>
+    </div>
+
+    <div class="supl-card">
+      <div><div class="supl-badge media">Média</div></div>
+      <div><h3>Coenzima Q10 (CoQ10)</h3>
+        <div class="supl-row"><span class="lbl">Dose</span><span>100–200mg/dia</span></div>
+        <div class="supl-row"><span class="lbl">Quando</span><span>Com a refeição que contém mais gordura</span></div>
+        <div class="supl-row"><span class="lbl">Benefício</span><span>Antioxidante mitocondrial que reduz estresse oxidativo no tecido adiposo inflamado. Apoia energia e função muscular.</span></div>
+        <div class="supl-row"><span class="lbl">⚠️ Atenção</span><span class="warn">Prefira forma ubiquinol (melhor absorção acima dos 40 anos).</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card"><div class="card-title">📋 Resumo — Visão Geral</div>
+    <div style="overflow-x:auto">
+    <table class="resumo-table">
+      <thead><tr><th>Suplemento</th><th>Dose</th><th>Quando</th><th>Prioridade</th></tr></thead>
+      <tbody>
+        <tr><td>Ômega-3</td><td>2–4g/dia</td><td>Com refeição principal</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Magnésio Bisglicinato</td><td>400–600mg</td><td>À noite</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Vitamina D3 + K2</td><td>2.000–5.000 UI</td><td>Com refeição</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Vitamina C</td><td>1.000–2.000mg</td><td>Com refeições</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Glucomanana</td><td>3–4g/dia</td><td>30 min antes das refeições</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Gymnema Sylvestre</td><td>400–800mg</td><td>Antes das refeições</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Berberina</td><td>500mg 2–3x</td><td>Início das refeições</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Psyllium</td><td>10–15g</td><td>20 min antes das refeições</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Rutina</td><td>500–1.000mg</td><td>Manhã e tarde</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Diosmina + Hesperidina</td><td>1.000mg</td><td>Com refeições</td><td class="prioridade-alta">■■■ Alta</td></tr>
+        <tr><td>Zinco Bisglicinato</td><td>15–30mg</td><td>Com refeição</td><td class="prioridade-media">■■ Média</td></tr>
+        <tr><td>Cromo Picolinato</td><td>200–400mcg</td><td>Café da manhã</td><td class="prioridade-media">■■ Média</td></tr>
+        <tr><td>CoQ10 (Ubiquinol)</td><td>100–200mg</td><td>Com gordura</td><td class="prioridade-media">■■ Média</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════
+     🍽️ RECEITAS
+══════════════════════════════════════════════ -->
+<section id="sec-receitas" class="section">
+  <div class="guia-hero">
+    <h2>🍽️ Receitas Funcionais</h2>
+    <p>Anti-compulsão · Anti-inflamatórias · Alta proteína · Para o desmame do GLP-1 com lipedema.</p>
+  </div>
+
+  <div class="card"><div class="card-title">🌅 Café da Manhã</div>
+
+    <div class="rec-card">
+      <h3>Iogurte Grego com Canela e Chia</h3>
+      <div class="rec-sub">Anti-inflamatório · Proteico · Saciedade prolongada</div>
+      <div class="rec-tags"><span class="rec-tag">Proteína</span><span class="rec-tag">Fibra</span><span class="rec-tag">Anti-compulsão</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>200g iogurte grego natural (sem açúcar)</li><li>1 col sopa de chia</li><li>1 col chá de canela do Ceilão</li><li>Frutas vermelhas a gosto (mirtilo, morango)</li><li>1 col sopa de granola sem açúcar (opcional)</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Monte em camadas. Hidrate a chia em 2 col sopa de água por 10 min antes. Adicione canela generosamente. Consuma imediatamente ou deixe na geladeira até 8h.</p>
+      <div class="rec-macros"><span class="rec-macro">~25g proteína</span><span class="rec-macro">~8g fibra</span><span class="rec-macro">~280 kcal</span></div>
+    </div>
+
+    <div class="rec-card">
+      <h3>Omelete Anti-inflamatório</h3>
+      <div class="rec-sub">Alta proteína · Gordura boa · Saciedade real</div>
+      <div class="rec-tags"><span class="rec-tag">Proteína</span><span class="rec-tag">Gordura boa</span><span class="rec-tag">Anti-inflamatório</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>3 ovos inteiros</li><li>1 col sopa de azeite extravirgem</li><li>1 dente de alho amassado (aguardar 10 min)</li><li>Cúrcuma + pimenta-do-reino generosamente</li><li>Espinafre, tomate-cereja, cogumelos a gosto</li><li>Sal rosa a gosto</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Refogar alho no azeite. Adicionar vegetais. Bater os ovos com cúrcuma e pimenta. Despejar sobre o refogado em fogo médio-baixo. Tampar e deixar firmar.</p>
+      <div class="rec-macros"><span class="rec-macro">~22g proteína</span><span class="rec-macro">~18g gordura boa</span><span class="rec-macro">~320 kcal</span></div>
+    </div>
+  </div>
+
+  <div class="card"><div class="card-title">☀️ Almoço</div>
+
+    <div class="rec-card">
+      <h3>Bowl Anti-inflamatório com Frango e Cúrcuma</h3>
+      <div class="rec-sub">Refeição completa · Alta proteína · Volume alimentar</div>
+      <div class="rec-tags"><span class="rec-tag">Proteína</span><span class="rec-tag">Fibra</span><span class="rec-tag">Anti-inflamatório</span><span class="rec-tag">Volume</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>150g peito de frango grelhado</li><li>½ xíc arroz integral ou batata-doce</li><li>Folhas verdes à vontade (rúcula, espinafre)</li><li>½ abacate em fatias</li><li>1 col sopa de azeite + limão + cúrcuma + pimenta</li><li>Pepino, cenoura ralada, tomate-cereja</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Tempere o frango com cúrcuma, gengibre, alho e pimenta. Grelhe. Monte o bowl com base de folhas, grão e vegetais. Finalize com azeite, limão e mais cúrcuma.</p>
+      <div class="rec-macros"><span class="rec-macro">~40g proteína</span><span class="rec-macro">~12g fibra</span><span class="rec-macro">~480 kcal</span></div>
+    </div>
+
+    <div class="rec-card">
+      <h3>Sopa Drenante de Gengibre e Legumes</h3>
+      <div class="rec-sub">Drenante · Anti-retenção · Reconfortante</div>
+      <div class="rec-tags"><span class="rec-tag">Drenante</span><span class="rec-tag">Anti-inflamatório</span><span class="rec-tag">Baixa caloria</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>3cm gengibre fresco ralado</li><li>2 dentes de alho</li><li>Cenoura, abobrinha, brócolis, chuchu</li><li>Cúrcuma + pimenta-do-reino + cúrcuma</li><li>1 litro de caldo de legumes natural</li><li>Proteína: frango desfiado ou ovo cozido</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Refogar alho e gengibre no azeite. Adicionar legumes picados. Cobrir com caldo. Cozinhar por 15 min. Temperar com cúrcuma e pimenta. Adicionar proteína ao servir.</p>
+      <div class="rec-macros"><span class="rec-macro">~25g proteína</span><span class="rec-macro">~10g fibra</span><span class="rec-macro">~280 kcal</span></div>
+    </div>
+  </div>
+
+  <div class="card"><div class="card-title">🍎 Lanches Anti-Compulsão</div>
+
+    <div class="rec-card">
+      <h3>Shot Anti-crise de Doce</h3>
+      <div class="rec-sub">Para usar quando bater compulsão — resultado em 5 min</div>
+      <div class="rec-tags"><span class="rec-tag">Anti-compulsão</span><span class="rec-tag">Urgente</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>1 cápsula de Gymnema aberta (400mg)</li><li>4 folhas de menta fresca</li><li>Suco de ½ limão</li><li>200ml de água gelada</li><li>Pitada de sal rosa</li></ul>
+      <span class="rec-section">Como usar</span>
+      <p>Misturar tudo e beber devagar, deixando o líquido tocar bem a língua. O Gymnema bloqueia receptores de doce por 1–2h. Usar antes de eventos ou quando a compulsão chegar.</p>
+    </div>
+
+    <div class="rec-card">
+      <h3>Pasta de Amendoim com Maçã e Canela</h3>
+      <div class="rec-sub">Saciedante · Proteico · Controle glicêmico</div>
+      <div class="rec-tags"><span class="rec-tag">Proteína</span><span class="rec-tag">Gordura boa</span><span class="rec-tag">Fibra</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>1 maçã média em fatias</li><li>2 col sopa de pasta de amendoim integral (sem açúcar)</li><li>Canela do Ceilão generosamente</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Fatiar a maçã. Mergulhar na pasta de amendoim. Polvilhar canela. A combinação fibra + proteína + gordura boa controla o pico glicêmico e prolonga saciedade.</p>
+      <div class="rec-macros"><span class="rec-macro">~8g proteína</span><span class="rec-macro">~5g fibra</span><span class="rec-macro">~220 kcal</span></div>
+    </div>
+
+    <div class="rec-card">
+      <h3>Smoothie Verde Anti-inflamatório</h3>
+      <div class="rec-sub">Desjejum ou lanche · Alta nutrição · Drenante</div>
+      <div class="rec-tags"><span class="rec-tag">Proteína</span><span class="rec-tag">Anti-inflamatório</span><span class="rec-tag">Drenante</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>1 scoop de proteína (whey ou vegetal)</li><li>1 xíc de espinafre fresco</li><li>½ banana congelada</li><li>1 col chá de cúrcuma + pitada de pimenta</li><li>2cm gengibre fresco</li><li>200ml leite vegetal sem açúcar</li><li>Gelo a gosto</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Bater tudo no liquidificador. Consumir imediatamente. A cúrcuma com pimenta e azeite (pode adicionar 1 col chá) maximiza a absorção da curcumina.</p>
+      <div class="rec-macros"><span class="rec-macro">~28g proteína</span><span class="rec-macro">~4g fibra</span><span class="rec-macro">~260 kcal</span></div>
+    </div>
+  </div>
+
+  <div class="card"><div class="card-title">🌙 Jantar</div>
+
+    <div class="rec-card">
+      <h3>Salmão Assado com Crosta de Ervas</h3>
+      <div class="rec-sub">Anti-inflamatório máximo · Ômega-3 natural · Leve</div>
+      <div class="rec-tags"><span class="rec-tag">Ômega-3</span><span class="rec-tag">Proteína</span><span class="rec-tag">Anti-inflamatório</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>150–200g de salmão</li><li>Azeite + limão siciliano + alho</li><li>Cúrcuma + pimenta + gengibre em pó</li><li>Legumes assados: brócolis, aspargos, abobrinha</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Marinar o salmão com azeite, limão, alho amassado, cúrcuma e gengibre por 15 min. Assar a 200°C por 15–18 min com os legumes ao redor. O ômega-3 do salmão potencializa os efeitos anti-inflamatórios da cúrcuma.</p>
+      <div class="rec-macros"><span class="rec-macro">~38g proteína</span><span class="rec-macro">~20g gordura boa</span><span class="rec-macro">~420 kcal</span></div>
+    </div>
+
+    <div class="rec-card">
+      <h3>Carne Moída com Legumes e Cúrcuma</h3>
+      <div class="rec-sub">Rápido · Alta proteína · Família inteira</div>
+      <div class="rec-tags"><span class="rec-tag">Proteína</span><span class="rec-tag">Anti-inflamatório</span><span class="rec-tag">Fácil</span></div>
+      <span class="rec-section">Ingredientes</span>
+      <ul><li>200g carne moída patinho</li><li>Alho, cebola, tomate, abobrinha, cenoura</li><li>1 col chá cúrcuma + pimenta + orégano</li><li>Azeite + sal rosa</li></ul>
+      <span class="rec-section">Preparo</span>
+      <p>Refogar alho e cebola no azeite. Adicionar carne e dourar. Acrescentar legumes picados e temperos. Refogar por 10 min com pouca água. Servir com salada verde.</p>
+      <div class="rec-macros"><span class="rec-macro">~35g proteína</span><span class="rec-macro">~8g fibra</span><span class="rec-macro">~380 kcal</span></div>
+    </div>
+  </div>
+
+  <div class="card" style="background:var(--taupe);border-color:var(--taupe)">
+    <div class="card-title" style="color:var(--white)">💡 Princípio das Refeições Anti-Compulsão</div>
+    <p style="color:rgba(255,255,255,.85);font-size:.88rem;line-height:1.8">Toda refeição deve ter: <strong style="color:var(--sand)">proteína</strong> (saciedade real) + <strong style="color:var(--sand)">fibra</strong> (lentidão da digestão) + <strong style="color:var(--sand)">gordura boa</strong> (controle hormonal) + <strong style="color:var(--sand)">volume</strong> (satisfação visual e gástrica) + <strong style="color:var(--sand)">anti-inflamatório</strong> (cúrcuma, gengibre, alho em todas as refeições).</p>
+    <p style="color:rgba(255,255,255,.65);font-size:.8rem;margin-top:12px;font-style:italic">O objetivo não é restrição extrema. É estabilidade.</p>
   </div>
 </section>
 
